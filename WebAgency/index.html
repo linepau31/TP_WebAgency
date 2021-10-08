@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>WebAgency</title>
+</head>
+<body>
+
+    <header class="header">
+        <!--------------- Logo --------------->
+        <a href="#" id="logo" title="WEBAGENCY">
+            <img src="img/picto.png" alt="WEBAGENCY">
+            <h1>WEBAGENCY</h1>
+         </a>
+        <!------------- Navigation/Menu Hamberger ---------------->
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#acceuil">Acceuil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section id="jumbotron">
+        <!------------ Section Jumbotron -------------->
+        <div class="container">
+            <h2><span>WEBAGENCY :</span> L'AGENCE DE TOUS VOS PROJETS!</h2>
+            <p>Vous avez un projet web? La WebAgency vous aide à le réaliser</p>
+            <a class="btn" href="#contact">Plus d'infos</a>
+        </div>
+          <img class="photo" src="img/photo_slide_1.png" alt="slide" width="100%">
+
+            <!----------------- Slide/Carousel -------------------------
+                <div class="carousel">  
+
+                 <input type="radio" name="radio1" id="bouton1" class="toogle_slide"checked>  
+
+                 <div id="slide">                                                    
+                  <img src="img/photo_slide_1.png" alt="im1"> 
+                  <label for="bouton1" class="left">&#8249</label>
+                  <label for="bouton2" class="right">&#8250</label>  
+                </div>
+
+                  <input type="radio" name="radio1" id="bouton2"class="toogle_slide">  
+
+                <div id="slide">
+                 <img src="img/photo_slide_2.png" alt="im2"/>
+                 <label for="bouton1" class="left">&#8249</label>
+                 <label for="bouton2" class="right">&#8250</label>
+                </div>
+            </div> 
+            ------------------------------------------------>
+  
+                          
+    </section>
+      
+    <section id="NosServices">
+        <!----------------------- Section Nos Services ------------------->
+        <div class="container">
+            
+            <h3>NOS SERVICES</h3>
+            <span>&#8226;</span>
+            <p class="info">Depuis plusieurs années, la WebAgency vous accompagne dans la définition et la compréhension de
+                vos projets, de la conception graphique et technique au web-marketing</p>
+        <div id="services">
+        <div class="ordi">
+            <img class="services" src="img/photo_services.png" alt="écran d'ordinateur" width="100%">
+        </div>
+
+        <div class="card-service">
+            <div class="block">
+                <img src="img/ux design.png" alt="UX Design">
+                <h4>UX Design</h4>
+                <p>Plateformes, Web-applications, Sites transactionnels, E-commerce & Marchants, Sites vitrines et médias conçus
+                et pensés pour une utilisation optimale.</p>
+            </div>
+    
+            <div class="block">
+                <img src="img/ui design.png" alt="UI Design">
+                <h4>UI Design</h4>
+                <p>Ergonomie et facilité de navigation des interfaces pour sites vitrines, E-commerce, plateformes,
+                    Web-applications, et Sites média...</p>
+            </div>
+    
+            <div class="block">
+                <img src="img/SEO.png" alt="SEO - Search Engine Optimization">
+                <h4>SEO - Search Engine Optimization</h4>
+                <p>Où l'art d'optimiser la visibilité et le positionnement de sites web par les moteurs de recherche.</p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Portfolio">
+        <!---------------- Section Nos Porjets--------------->
+        <div class="container">
+        <div class="projet">
+            <h3>NOS PROJETS</h3>
+            <span>&#8226;</span>
+            <p>Voici quelques projets qui ne sont pas le fait du hasard mais le fruit de notre imagination! <br> Nous
+                donnons vie à vos idées</p>
+        </div>
+    
+        <div class="btn-group">
+            <input class="btn" type="button" href="#tous" value="Tous les travaux">
+            <input class="btn" type="button" href="#crea" value="Créatives">
+            <input class="btn" type="button" href="#copo" value="Corporate">
+            <input class="btn" type="button" href="#port" value="Portfolio">
+        </div>
+        <!------------------Portfolio -------------------->
+        <div class="card-group">
+
+            <div class="card">
+                <a href="#crea" href="#tous">
+                    <img src="img/photo.png" alt="Créatives" width="100%">
+                </a>
+            </div>    
+        <!------------------- Hover/Clic Portfolio ---------------       
+            <div class="clicInfo"> 
+                <div class="bloc">         
+                    <h5>Opti’Kids Site</h5>
+                    <p>site marchand de lunettes</p> 
+                </div>     
+            </div>     
+        -------------------------------------------->         
+            
+
+            <div class="card">
+                <a href="#crea">
+                    <img src="img/photo(1).png" alt="Créatives" width="100%">
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#crea">
+                    <img src="img/photo(2).png" alt="Créatives" width="100%">
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#port" >
+                    <img src="img/photo(3).png" alt="Portfolio" width="100%">
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#copo">
+                    <img src="img/photo(4).png" alt="Corporate" width="100%">
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#port" >
+                    <img src="img/photo(5).png" alt="Portfolio" width="100%">
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#crea">
+                    <img src="img/photo(6).png" alt="Créatives" width="100%">
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="#copo">
+                    <img src="img/photo(7).png" alt="Corporate" width="100%">
+                </a>
+            </div>
+        
+        </div>
+        </div>
+    </section>
+    <!----------------------- Section Contact/Map ------------------->
+    <section id="Contact">
+        <!--------------------- Map ---------------------->
+        <div class="container">
+            <div class="fond">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27493.842197096277!2d1.3838411489144788!3d43.58708754419816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeba53a739cc1d%3A0xd924d2969bea1bdb!2s150%20Rue%20Nicolas%20Louis%20Vauquelin%2C%2031100%20Toulouse!5e0!3m2!1sfr!2sfr!4v1622629853174!5m2!1sfr!2sfr"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+            <!---------------- Formulaire ----------------->
+            <form>
+                <h4>Contact Info</h4>
+                <p><b>WebAgence SAS</b> <br>150 Rue Nicolas Louis Vauquelin 31100 Toulouse <br>Tél: 0534612623</p>
+                <div>
+                    <input type="text" placeholder="Nom" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="Prénom" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="Sujet" required>
+                </div>
+                <div>
+                    <textarea placeholder="Message" required></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn">Envoyer le message</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+        <!------------------ Footer ------------------------>
+    <footer>
+        <p>Tous droits réservés WebAgency - Design:Némo - Intération Your NAME</p>
+    </footer>
+</body>
+</html>
